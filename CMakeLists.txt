@@ -23,15 +23,51 @@ add_executable(LecPatterns main.cpp
         Structural/Decorator/Decorator.cpp
         Structural/Decorator/Decorator.h
         Structural/Facade/Facade.cpp
-        Structural/Facade/Facade.h)
+        Structural/Facade/Facade.h
+        Structural/Flyweight/Flyweight.cpp
+        Structural/Flyweight/Flyweight.h
+        Structural/Proxy/Proxy.cpp
+        Structural/Proxy/Proxy.h
+        Behavioral/ChainOfResponsibility/ChainOfResponsibility.cpp
+        Behavioral/ChainOfResponsibility/ChainOfResponsibility.h
+        Behavioral/Command/Command.cpp
+        Behavioral/Command/Command.h
+        Behavioral/Iterator/Iterator.cpp
+        Behavioral/Iterator/Iterator.h
+        Behavioral/Mediator/Mediator.cpp
+        Behavioral/Mediator/Mediator.h
+        Behavioral/Memento/Memento.cpp
+        Behavioral/Memento/Memento.h
+        Behavioral/Observer/Observer.cpp
+        Behavioral/Observer/Observer.h
+        Behavioral/State/State.cpp
+        Behavioral/State/State.h
+        Behavioral/Strategy/Strategy.cpp
+        Behavioral/Strategy/Strategy.h
+        Behavioral/TemplateMethod/TemplateMethod.cpp
+        Behavioral/TemplateMethod/TemplateMethod.h
+        Behavioral/Visitor/Visitor.cpp
+        Behavioral/Visitor/Visitor.h)
 
 include_directories(Creational/FactoryMethod
                     Creational/AbstractFactory
                     Creational/Builder
                     Creational/Prototype
                     Creational/Singleton
-        Structural/Adapter
-        Structural/Bridge
-        Structural/Composite
-        Structural/Decorator
-        Structural/Facade)
+                    Structural/Adapter
+                    Structural/Bridge
+                    Structural/Composite
+                    Structural/Decorator
+                    Structural/Facade
+                    Structural/Flyweight
+                    Structural/Proxy
+                    Behavioral/ChainOfResponsibility
+                    Behavioral/Command
+                    Behavioral/Iterator
+                    Behavioral/Mediator
+                    Behavioral/Memento
+                    Behavioral/Observer
+                    Behavioral/State
+                    Behavioral/Strategy
+                    Behavioral/TemplateMethod
+                    Behavioral/Visitor)
